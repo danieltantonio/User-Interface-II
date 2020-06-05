@@ -132,6 +132,7 @@ section img {
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  padding: 20px;
 }
 
 .project-container {
@@ -155,7 +156,20 @@ footer {
     flex-direction: column;
   }
 
+  nav a {
+    box-shadow: ;
+  }
+
   .logo-container {
     margin: 0 auto;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery img {
+    width: 50vw;
   }
 }
