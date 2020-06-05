@@ -79,6 +79,8 @@ section img {
 
 .jumbotron {
   position: relative;
+  height: 60vh;
+  background-image: url("https://picsum.photos/1920/720?blur=2");
 }
 
 .jumbo-img-container {
@@ -145,4 +147,15 @@ footer {
   width: 100vw;
   background: #363636;
   padding: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-container {
+    margin: 0 auto;
+  }
 }
